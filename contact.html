@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ارتباط</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.svg" alt="simply recipes" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> خانه </a>
+          <a href="about.html" class="nav-link"> درباره </a>
+          <a href="tags.html" class="nav-link"> برچسب ها </a>
+          <a href="recipes.html" class="nav-link"> دستور ها </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> ارتباط </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <main class="page">
+     <section class="contact-container">
+          <article class="contact-info">
+            <h3>میخوهید در ابرتباط باشید؟</h3>
+            <p>
+              متن پر محتوا
+            </p>
+            <p>متن پر محتوا تر</p>
+            <p>
+              متن خیلی پر محتوا
+            </p>
+          </article>
+          <article>
+            <form class="form contact-form">
+              <div class="form-row">
+                <label html="name" class="form-label">اسم شما</label>
+                <input type="text" name="name" id="name" class="form-input" />
+              </div>
+              <div class="form-row">
+                <label html="email" class="form-label">ایمیل شما</label>
+                <input type="text" name="email" id="email" class="form-input" />
+              </div>
+              <div class="form-row">
+                <label html="message" class="form-label">پیام</label>
+                <textarea name="message" id="message" class="form-textarea"></textarea>
+              </div>
+              <button type="submit" class="btn btn-block">
+                ثبت
+              </button>
+            </form>
+          </article>
+        </section>
+     <!-- featured recipes -->
+       <section class="featured-recipes">
+        <h5 class="featured-title">اینم چندتا دستور پخت خوشمزه</h5>
+        <div class="recipes-list">
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-1.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>گوشت تفت داده شده</h5>
+            <p>آماده سازی : 15 دقیقه | پخت : 5 دقیقه</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-2.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>دنده یونانی</h5>
+            <p>آماده سازی : 15 دقیقه | پخت : 5 دقیقه</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-3.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>سوپ سبزیجات</h5>
+            <p>آماده سازی : 15 دقیقه | پخت : 5 دقیقه</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-4.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>پن کیک موز</h5>
+            <p>آماده سازی : 15 دقیقه | پخت : 5 دقیقه</p>
+          </a>
+          <!-- end of single recipe -->
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">دستور پخت های ساده</span> ساخته شده توسط
+        <a href="https://www.johnsmilga.com/">Ariya.h</a>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
